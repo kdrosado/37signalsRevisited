@@ -1,0 +1,195 @@
+/*CSS for 37signals Revisited*/
+
+/*Date set-up*/
+.date {
+	float: left;
+	padding-top: 25px;
+	padding-left: 50px;
+	font-size: 0.9em;
+	color: #aaa;
+}
+
+/*Navigation bar set-up*/
+nav {
+	float: right;
+	padding-top: 25px;
+	padding-right: 50px;
+}
+
+nav ul li {
+	float: left;
+	padding-left: 25px;
+}
+
+nav ul li a {
+	font-size: small;
+	color: black;
+	font-size: 0.9em;
+	color: #369;
+	text-decoration: none;
+}
+
+/*Navigation bar hover effect*/
+nav ul li a:hover {
+	color: #18afe0;
+	cursor: pointer;
+}
+
+nav ul li #signIn {
+	color: #18afe0;
+}
+/*Signin link hover effect*/
+nav ul li #signIn:hover {
+	color: #369;
+	cursor: pointer;
+}
+
+/*Logo set-up*/
+#logo {
+	display: block;
+	clear: both;
+	margin: auto;
+	padding-top: 25px;
+	text-align: center;
+}
+
+body {
+	position: absolute;
+	left: 50px;
+	right: 50px;
+}
+
+/*Headlines set-up*/
+#headlines {
+	height: 170px;
+}
+
+h1 {
+	color: #222;
+	font-family: Times, Georgia, serif;
+	font-size: 46px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 100%;
+	margin-top: 25px;
+}
+
+h2 {
+	color: #222;
+	font-family: Times, Georgia, serif;
+	font-size: 18px;
+	text-align: center;
+	line-height: 150%;
+	margin-top: 25px;
+}
+
+h3 {
+	color: #222;
+	font-family: Times, Georgia, serif;
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 100%;
+	margin-top: 25px;
+}
+
+h4 {
+	color: #222;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	text-align: center;
+	line-height: 150%;
+	margin-top: 25px;
+}
+.hide {
+	display: none;
+}
+
+.highlight {
+	color: #369;
+	text-decoration: underline;
+	font-size: 36px;
+}
+
+/*Arrow set-up*/
+#arrow-bc {
+	position: relative;
+	margin: 10px 400px 0 0;
+	z-index: 100;
+}
+
+#arrow-hr {
+	position: relative;
+	margin-top: 18px;
+	z-index: 100;
+}
+
+#arrow-cf {
+	position: relative;
+	margin: 18px 0 0 400px;
+	z-index: 100;
+}
+
+/*Products gradient set-up*/
+.product {
+	position: relative;
+	display: inline-block;
+	margin: 150px 10px 20px 10px;
+	padding: 20px;
+	width: 160px;
+	background: linear-gradient(white, #F0F0F0);
+	border-radius: 6px;
+	border: 1px solid #F0F0F0;
+	outline: none;
+}
+
+/*Products hover effect*/
+.product:hover {
+	cursor: pointer;
+}
+
+.product:focus {
+	outline: none;
+}
+
+/*Products set-up*/
+.allProducts {
+	text-align: center;
+}
+
+.productLogos {
+	margin-top: 10px;
+}
+
+.productTitle {
+	margin-top: 15px;
+	color: #369;
+	font-family: Lucida, Verdana, sans-serif;
+	font-size: 22px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.productSubtitle {
+	margin-top: 10px;
+	color: red;
+	font-family: Lucida, Verdana, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.productDescription {
+	margin: 20px 0 10px 0;
+	color: #222;
+	font-family: Lucida, Verdana, sans-serif;
+	font-size: 14px;
+	text-align: center;
+}
+
+/*Asterisks Footer*/
+footer{
+	margin-top:30px;
+	text-align: center;
+}

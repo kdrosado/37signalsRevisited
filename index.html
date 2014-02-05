@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset="utf-8"/>
+		<title>37signals: Web-based collaboration</title>
+		<link rel="stylesheet" type="text/css" href="meyerCssReset.css">
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<script type='text/javascript' src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script type='text/javascript' src='application.js'></script>
+	</head>
+
+	<body>
+		<!--Date set-up-->
+		<div class="date">Happy Tuesday.</div>
+		<!--Navigation bar-->
+		<nav>
+			<ul>
+				<li><a href="#">Company blog</a></li>
+				<li><a href="#">Our story</a></li>
+				<li><a href="#">Follow us on Twitter</a></li>
+				<li><a href="#">System status</a></li>
+				<li><a id="signIn" href="#">Sign in</a></li>
+			</ul>
+		</nav>
+
+		<!-- Headlines set-up -->
+		<div id="headlines">
+
+			<!--Logo set-up-->
+			<div>
+				<img id="logo" src="images/logo-37s-large.png" alt="37 Signals">
+			</div>
+
+			<!--Main headline-->
+			<div id="mainHeadline">
+				<h1>Making collaboration productive and<br>enjoyable for people every day.</h1>
+				<h2>Frustration-free web-based apps for collaboration, sharing information, and making decisions</h2>
+			</div>
+
+			<!-- Basecamp headline -->
+			<div id="bcHeadline" class="hide">
+				<h3><strong class="highlight">Basecamp</strong> is the project management tool you<br>wish you had on your last project.</h3>
+				<h4>Are you still managing project with email? Are you still using Excel for your to-do lists? It's time to upgrade to<br>Basecamp. Manage projects and collaborate with your team and clients the modern way.</h4>
+				<div class="allProducts">
+					<img id="arrow-bc" src="images/arrow-bc.png" alt="Basecamp">
+				</div>
+			</div>
+
+			<!-- Highrise headline -->
+			<div id="hrHeadline" class="hide">
+				<h3><strong class="highlight">Highrise</strong> remembers the important things<br>about people you'd normally forget.</h3>
+				<h4>Keep a permanent record of people you do business with. Know who you talked to, when you talked to them,<br>what was said, and when to follow up next. Over 20,000,000 contacts are tracked using Highrise.</h4>
+				<div class="allProducts">
+					<img id="arrow-hr" src="images/arrow-hr.png" alt="Highrise" >
+				</div>
+			</div>
+
+			<!-- Campfire headline -->
+			<div id="cfHeadline" class="hide">
+				<h3>From near or far, <strong class="highlight">Campfire</strong> helps teams work<br>together over the web in real-time.</h3>
+				<h4>Share ideas, discussions, concepts, images, code samples, videos, mockups, and documents in a real-time<br>private chat room. It's game changing. We couldn't run our own business without Campfire.</h4>
+				<div class="allProducts">
+				<img id="arrow-cf" src="images/arrow-cf.png" alt="Campfire">
+				</div>
+			</div>
+		</div> <!--Closing div for headlines-->
+
+		<!--Products set-up-->
+		<div class="allProducts">
+			<!-- Basecamp product-->
+			<a href="https://basecamp.com/" target="_blank">
+				<div class="product" id="basecamp">
+					<img class="productLogos" alt="Basecamp" src="images/logo-bc.png">
+					<p class="productTitle">Basecamp</p>
+					<p class="productSubtitle">Manage Projects</p>
+					<p class="productDescription">Used by millions for project management.</p>
+				</div>
+			</a>
+			<!-- Highrise product-->
+			<a href="https://highrisehq.com/" target="_blank">
+				<div class="product" id="highrise">
+					<img class="productLogos" alt="Highrise" src="images/logo-hr.png">
+					<p class="productTitle">Highrise</p>
+					<p class="productSubtitle">Manage Contacts</p>
+					<p class="productDescription">Know the people you do business with.</p>
+				</div>
+			</a>
+			<!-- Campfire product-->
+			<a href="https://campfirenow.com/" target="_blank">
+				<div class="product" id="campfire">
+					<img class="productLogos" alt="Campfire" src="images/logo-cf.png">
+					<p class="productTitle">Campfire</p>
+					<p class="productSubtitle">Work in Real-Time</p>
+					<p class="productDescription">Group chat rooms for your business.</p>
+				</div>
+			</a>
+		</div> <!--Closing div for products-->
+
+			<!--Footer asterisks Set-Up-->
+			<footer>
+				<img src="images/img-hr.png" alt="Asterisks" id="asterisks"/>
+			</footer>
+		
+	</body>
+</html>
